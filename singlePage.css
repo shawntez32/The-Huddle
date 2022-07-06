@@ -1,0 +1,19 @@
+.article-header{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    color: #fff;
+}
+.main-section{
+  grid-column: 2 / 8;
+  grid-row: 1 / end;
+  text-align: center;
+}
+.main-section p{
+  font-size: 30px;
+  font-weight: 400;
+  color: #000;
+}
